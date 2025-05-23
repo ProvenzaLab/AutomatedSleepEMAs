@@ -14,6 +14,7 @@ AutomatedSleepEMAs/
 ├─ sleep_ema_demo.py          # single-file demo pipeline
 ├─ example_oura_sleep.json    # 8 nights of anonymised sample data
 └─ config_example.json        # template for real tokens / IDs
+```text
 
 sleep_ema_demo.py does the following:
 	1.	Pull Oura Ring sleep data
