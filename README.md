@@ -7,26 +7,32 @@ This repo is a minimal example of a **sleep-deviation-triggered EMA** that uses 
 
 ⸻
 
-What sleep_ema_demo.py does
+### Basic Logic
+
 	1.	Pull Oura Ring sleep data
+
 	•	If a real Oura token is present → downloads the last 8 nights.
+
 	•	Otherwise → loads example_oura_sleep.json.
-	2.	Apply the rule
-Trigger = | last night sleep – average of previous seven days | > 25 %.
+
+	2.	Apply the rule: Trigger = | last night sleep – average of previous seven days | > 25 %.
+
 	3.	Send (or print) a Qualtrics survey invite
+
 	•	Email and SMS are posted if valid Qualtrics credentials are supplied.
+
 	•	If any credential equals xxx or you pass --dry, it only prints the payload.
 
 ⸻
 
-Requirements
+### Requirements
 
 pip install requests
 
 
 ⸻
 
-Usage
+### Usage
 
 Dry-run mode (no real tokens needed):
 
