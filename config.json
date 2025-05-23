@@ -1,0 +1,11 @@
+{
+    "oura_api_tokens": {
+        "patient_1": "xxx"
+    },
+    "qualtrics": {
+        "api_token": "xxx",
+        "survey_id": "SV_xxx",
+        "mailinglist_id": "CG_xxx",
+        "patient_1": "CGC_xxx"
+    }
+}
